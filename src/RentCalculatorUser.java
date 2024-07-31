@@ -44,7 +44,7 @@ public class RentCalculatorUser {
                 System.out.println("What would you like the new utility bill to be? ");
                 rent.setUtilityCost(console.nextDouble());
                 System.out.println("New utility bill is " + rent.getUtilityCost());
-            } else if(!choice.equals("quit")) {
+            } else {
                 System.out.println("Please enter a valid choice!");
             }
             System.out.println("What would you like to do?");
