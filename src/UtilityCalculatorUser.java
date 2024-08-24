@@ -1,11 +1,11 @@
 import java.util.*;
 
-public class RentCalculatorUser {
+public class UtilityCalculatorUser {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Welcome to the Rent Calculator! What is the total utility bill?" );
         double utility = console.nextDouble();
-        RentCalculator rent = new RentCalculator(utility);
+        UtilityCalculator rent = new UtilityCalculator(utility);
 
         System.out.println("What would you like to do?");
         System.out.println("Choices: (add) Resident, (remove) Resident, (print) Payments, " +

@@ -1,19 +1,23 @@
+// Bowen Liu
+// 08/23/2024
 import java.util.*;
 
-public class RentCalculator {
+// This is a RentCalculator class that calculates the amount of rent or utility owed to the
+// landlord for an amount of time. It prints the results to the console for the user.
+public class UtilityCalculator {
     private double utilityCost;
     private HashMap<String, Integer> residents;
 
-    public RentCalculator(double utilityCost) {
+    public UtilityCalculator(double utilityCost) {
         this.utilityCost = utilityCost;
         this.residents = new HashMap<>();
     }
 
-    public RentCalculator() {
+    public UtilityCalculator() {
         this(0.0);
     }
 
-    public RentCalculator(double utilityCost, HashMap<String, Integer> residents) {
+    public UtilityCalculator(double utilityCost, HashMap<String, Integer> residents) {
         this.utilityCost = utilityCost;
         this.residents = new HashMap<>(residents);
     }

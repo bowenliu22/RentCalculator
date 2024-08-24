@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RentCalculator.iml" filepath="$PROJECT_DIR$/RentCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UtilityCalculator.iml" filepath="$PROJECT_DIR$/UtilityCalculator.iml" />
     </modules>
   </component>
 </project>

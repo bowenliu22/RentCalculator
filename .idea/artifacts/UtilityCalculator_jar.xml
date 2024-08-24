@@ -2,7 +2,7 @@
   <artifact type="jar" name="RentCalculator:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/RentCalculator_jar</output-path>
     <root id="archive" name="RentCalculator.jar">
-      <element id="module-output" name="UtilityCalculator" />
+      <element id="module-output" name="RentCalculator" />
     </root>
   </artifact>
 </component>
